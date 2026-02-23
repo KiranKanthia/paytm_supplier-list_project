@@ -6,6 +6,6 @@ def is_prime(n):
             return False
     return True
 
-for num in range(10):
+for num in range(101):
     if is_prime(num):
         print(num)
